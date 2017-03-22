@@ -46,10 +46,10 @@ Last Updated on
     %\centering{
     \leftline{
         \sffamily
-        \fontspec[Path = fonts/zh_CN-Adobe/]{AdobeHeitiStd-Regular}\fontsize{18pt}{0.1cm}\selectfont #1 
+        \fontspec[Path = fonts/zh_CN-Adobe/]{AdobeHeitiStd-Regular}\fontsize{16pt}{0.1cm}\selectfont #1 
         \fontspec[Path = fonts/lato/]{Lato-Light}\selectfont #2
     }
-    \vspace{10pt}
+    \vspace{5pt}
     %\leftline{
     %   \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{16pt}{20pt}\selectfont #3
     %}
