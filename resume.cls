@@ -62,7 +62,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/SourceHanSansCN/]{SourceHanSansCN-Bold}\fontsize{16pt}{20pt}\selectfont \raggedright}{} {0em}{}
+\scshape\fontspec[Path = fonts/SourceHanSansCN/]{SourceHanSansCN-Bold}\fontsize{14pt}{14pt}\selectfont \raggedright}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
@@ -71,7 +71,7 @@ Last Updated on
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
 \newcommand{\runsubsection}[1]{\color{subheadings}
-\fontspec[Path = fonts/SourceHanSansCN/]{SourceHanSansCN-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
+\fontspec[Path = fonts/SourceHanSansCN/]{SourceHanSansCN-Medium}\fontsize{11pt}{11pt}\selectfont\bfseries {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\desc}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/SourceHanSansCN/]{SourceHanSansCN-Light}\fontsize{10pt}{10pt}\selectfont {#1 \\} \normalfont}
